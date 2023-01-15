@@ -332,7 +332,7 @@ details summary {
 
 .sponsors {
   display: flex;
-  justify-content: space-around;
+  gap: 10%;
   margin: 50px 240px;
 }
 
