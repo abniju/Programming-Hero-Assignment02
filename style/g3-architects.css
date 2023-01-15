@@ -273,10 +273,6 @@ main {
 
 /* styles of extra section */
 
-body {
-  background: #f6f6f6;
-}
-
 .faq-section {
   width: 50vw;
   margin: 100px auto;
@@ -363,5 +359,135 @@ details summary {
 
 /* --------------------end of footer section ---------------------- */
 
-
 /* --------------------Responsive styles for mobile ---------------------- */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+
+  .header-title {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .header-paragraph {
+    font-size: 12px;
+  }
+
+  .header-banner {
+    width: 90%;
+  }
+
+  .quick-list-feature {
+    flex-direction: column;
+  }
+
+  .quick-list-feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quick-list-feature-content {
+    width: 100%;
+  }
+
+  .quick-list-feature-title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .quick-list-feature-paragraph {
+    padding: 15px;
+  }
+
+  .quick-feature-btn {
+    position: absolute;
+    left: 25%;
+  }
+
+  .features-you-will-love-section {
+    flex-direction: column;
+  }
+
+  .features-you-will-love-title {
+    width: 90%;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  .features-you-will-love-paragraph {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .features {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .feature-image {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fact-box-container {
+    flex-direction: column;
+  }
+
+  .some-facts {
+    padding: 0;
+  }
+
+  .some-facts-section-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .some-facts-section-paragraph {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .faq-section {
+    width: 70%;
+  }
+
+  .sponsor-section-title {
+    width: 100%;
+  }
+  .sponsor-section-paragraph {
+    width: 100%;
+  }
+
+  .sponsors {
+    width: 50%;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 60px;
+    margin-top: 30px;
+  }
+
+  .footer {
+    width: 90%;
+  }
+  .footer p {
+    margin: auto;
+    width: 80%;
+    padding: 0;
+    padding-top: 20px;
+  }
+}
