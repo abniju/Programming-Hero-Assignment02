@@ -6,5 +6,102 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
 }
+
+:root{
+    --primary-color: #FF900E;
+    --background-color: #FFF4E7;
+    --dark1: #131313;
+    --dark2: #424242;
+    --dark3: #727272;
+}
+
+/* -----------------------------Header section styles-------------------------------- */
+
+header{
+    background-color: var(--background-color);
+    width: 100vw;
+}
+
+/* ----------Navbar--------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: var(--dark1);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.menu ul{
+   list-style-type: none; 
+   display: flex;
+}
+
+.menu ul li{
+    margin-left: 5vw;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: var(--dark2);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* --------Header Content------------ */
+
+.header-content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content{
+    width: 40vw;
+    text-align: center;
+    padding-top: 102px ;
+}
+
+.header-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    color: var(--dark1);
+    margin-bottom: 30px;
+}
+
+.header-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark3);
+}
+
+.header-btn{
+    width: 10vw;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 20px 25px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.header-banner{
+    width: 70vw;
+    padding-bottom: 45px;
+}
+
+/* ------------------Header section end------------------------------ */
